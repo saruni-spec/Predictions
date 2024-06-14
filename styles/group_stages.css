@@ -32,3 +32,19 @@ h3{
    
     cursor: move;
 }
+.button-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    height: 10vh;
+    width: 50vw;
+    margin: 5vh;
+    
+}
+button{
+    border: none;
+    background-color: transparent;
+    font-weight: 800;
+    cursor: pointer;
+}
