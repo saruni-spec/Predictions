@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 4vh;
     height: 80vh;
 
 }
@@ -39,8 +39,9 @@ height: 100%;
 }
 .line-combo{
     display: inline-block;
-    width: 1px;
-    height: 30px;
+    width: 0.15vw;
+    height: 8vh;
+    margin: 0;
     color: black;
     background-color: black;
 }
@@ -50,15 +51,27 @@ height: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 5px;
-    padding: 3px;
+    margin: 1vh;
+    padding: 1vh;
 }
 
 .line-out{
     display: inline-block;
-    width: 30px;
-    height: 1px;
+    width: 3vw;
+    height: 0.3vh;
+    margin: 0;
     color: black;
     background-color: black;
     z-index: 1;
+}
+.quarter-teams{
+  
+    padding: 3vh 0.5vw;
+}
+.semi-team{
+    padding: 10vh 0.5vw;
+}
+.team{
+margin: 5px;
+    padding: 1vh 0.5vw;
 }
