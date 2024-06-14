@@ -1,0 +1,77 @@
+#mirror{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    height: 80vh;
+
+}
+.side{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+.quarterfinals{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+
+}
+
+.pair{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+align-items: center;
+height: 100%;
+}
+.team-pair{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+    
+}
+.line-combo{
+    display: inline-block;
+    width: 0.15vw;
+    height: 8vh;
+    margin: 0;
+    color: black;
+    background-color: black;
+}
+
+.team-pair div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh;
+    padding: 1vh;
+}
+
+.line-out{
+    display: inline-block;
+    width: 3vw;
+    height: 0.3vh;
+    margin: 0;
+    color: black;
+    background-color: black;
+    z-index: 1;
+}
+.quarter-teams{
+  
+    padding: 3vh 0.5vw;
+}
+.semi-team{
+    padding: 10vh 0.5vw;
+}
+.team{
+
+    padding: 0vh 0.5vw;
+}
