@@ -4,6 +4,7 @@ $(function () {
 });
 
 function storePredictions() {
+  let predictionName = document.getElementById("predictions").innerText;
   let predictions = {};
 
   $(".groups").each(function () {
@@ -20,5 +21,5 @@ function storePredictions() {
   });
 
   console.log(predictions); // For debugging purposes
-  localStorage.setItem("predictions", JSON.stringify(predictions));
+  localStorage.setItem(predictionName, JSON.stringify(predictions));
 }

@@ -14,5 +14,7 @@ body{
     height: 10vh;
     width: 50vw;
     margin: 5vh;
+    position: absolute;
+    bottom: 0;
     
 }
