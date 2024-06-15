@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/knockout.css">
+    <title>Semi Finals</title>
+</head>
+<body>
+    <h2 id="roundName">Semi Finals</h2>
+    <h5>Select the team you think will win</h5>
+
+    <div class="duos">
+        <h6>Winner QF1 Winner QF2</h6>
+         <span  onclick="selectTeam(this)">Team</span><span>vs</span><span  onclick="selectTeam(this)">Team</span>
+     </div>
+  
+     <div class="duos">
+         <h6>Winner QF3 Winner QF4</h6>
+         <span  onclick="selectTeam(this)">Team</span><span>vs</span><span  onclick="selectTeam(this)">Team</span>
+     </div>
+ 
+     <div class="button-div">
+        <button type="button" onclick="">Previous</button>
+        <button type="button" onclick="storePredictions()">Next</button>
+    </div>
+    
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/scripts/select-team.js"></script>
+</body>
+</html>

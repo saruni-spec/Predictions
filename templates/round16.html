@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/knockout.css">
+    <title>Round of 16</title>
+</head>
+<body>
+    <h2 id="roundName">Round of 16</h2>
+    <h5>Select the team you think will win</h5>
+
+    <div class="duos">
+       <h6>Winner Group B Lucky Loser Groups ADEF</h6>
+        <span  onclick="selectTeam(this)">Team</span><span>vs</span><span  onclick="selectTeam(this)">Team</span>
+    </div>
+ 
+    <div class="duos">
+        <h6>Winner Group A 2nd Group C</h6>
+        <span  onclick="selectTeam(this)">Team</span><span>vs</span><span  onclick="selectTeam(this)">Team</span>
+    </div>
+    <div class="duos">
+       <h6>>Winner Group F Lucky Loser Groups ABC</h6>
+        <span  onclick="selectTeam(this)">Team</span><span>vs</span><span  onclick="selectTeam(this)">Team</span>
+    </div>
+ 
+    <div class="duos">
+        <h6>2nd Group D 2nd Group E</h6>
+        <span  onclick="selectTeam(this)">Team</span><span>vs</span><span  onclick="selectTeam(this)">Team</span>
+    </div>
+    <div class="duos">
+        <h6>Winner Group E Lucky Loser Groups ABCD</h6>
+        <span  onclick="selectTeam(this)">Team</span><span>vs</span><span  onclick="selectTeam(this)">Team</span>
+    </div>
+ 
+    <div class="duos">
+        <h6>Winner Group D 2nd Group F </h6>
+        <span  onclick="selectTeam(this)">Team</span><span>vs</span><span  onclick="selectTeam(this)">Team</span>
+    </div>
+    <div class="duos">
+        <h6>Winner Group C Lucky Loser Groups DEF</h6>
+        <span  onclick="selectTeam(this)">Team</span><span>vs</span><span  onclick="selectTeam(this)">Team</span>
+    </div>
+ 
+    <div class="duos">
+        <h6>2nd Group A 2nd Group B</h6>
+        <span  onclick="selectTeam(this)">Team</span><span>vs</span><span  onclick="selectTeam(this)">Team</span>
+    </div>
+
+    <div class="button-div">
+        <button type="button" onclick="">Previous</button>
+        <button type="button" onclick="storePredictions()">Next</button>
+    </div>
+
+    <script src="/scripts/select-team.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>

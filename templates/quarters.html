@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/knockout.css">
+    <title>Quater Finals</title>
+</head>
+<body>
+    <h2 id="roundName">Quater Finals</h2>
+    <h5>Select the team you think will win</h5>
+
+    <div class="duos">
+        <h6>Winner 3ADEF/1B Winner 2C/1A</h6>
+         <span  onclick="selectTeam(this)">Team</span><span>vs</span><span  onclick="selectTeam(this)">Team</span>
+     </div>
+  
+     <div class="duos">
+         <h6>Winner 1F/3ABC Winner 2D/2E</h6>
+         <span  onclick="selectTeam(this)">Team</span><span>vs</span><span  onclick="selectTeam(this)">Team</span>
+     </div>
+     <div class="duos">
+        <h6>Winner 3ABCD/1E Winner 1D/2F</h6>
+         <span  onclick="selectTeam(this)">Team</span><span>vs</span><span  onclick="selectTeam(this)">Team</span>
+     </div>
+  
+     <div class="duos">
+         <h6>Winner 1C/3DEF Winner 2B/2A</h6>
+         <span  onclick="selectTeam(this)">Team</span><span>vs</span><span  onclick="selectTeam(this)">Team</span>
+     </div>
+
+     <div class="button-div">
+        <button type="button" onclick="">Previous</button>
+        <button type="button" onclick="storePredictions()">Next</button>
+    </div>
+
+    <script src="/scripts/select-team.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>

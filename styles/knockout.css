@@ -1,0 +1,17 @@
+.duos{
+    width: 50vw;
+    height: 15vh;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+span{
+    cursor: pointer;
+    padding: 2vh 1vw;
+    background-color: aqua;
+}
+.selected{
+    background-color: #ce6b29;
+    color: #f7f4f4;
+}

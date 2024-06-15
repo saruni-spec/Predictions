@@ -6,3 +6,13 @@ body{
     margin: 0;
     padding: 0;
 }
+.button-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    height: 10vh;
+    width: 50vw;
+    margin: 5vh;
+    
+}
